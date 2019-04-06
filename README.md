@@ -8,7 +8,10 @@ Supports for python 3.6
 
 3. More the trained images, more is the accuracy.
 
-To increse the no.of images to be scanned:
-    Increse the number at line 22 in "face_scanner.py"
+    To increse the no.of images to be scanned:
     
-4. Run the "main.py"
+        Increse the number, at line 22 in "face_scanner.py"
+   
+4. In "faceDetector.py", increse and change the id's based on your data.
+
+5. Run the "main.py"
