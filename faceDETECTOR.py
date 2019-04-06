@@ -1,6 +1,7 @@
 
 import numpy as np
 import cv2
+no_of_students=int(input("Enter the total no.of students in the class"))
 present=[]
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
@@ -41,6 +42,6 @@ file='attendance report.txt'
 with open(file,'w') as fp:
     fp.write("student's present {}\n".format(students))
     fp.write('no.of students present ={}\n'.format(len(students)))
-    fp.write('no.of students absent = {}\n'.format(20-len(students)))
+    fp.write('no.of students absent = {}\n'.format(no_of_students-len(students)))
 
     
